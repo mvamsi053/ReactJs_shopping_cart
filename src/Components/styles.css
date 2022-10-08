@@ -1,0 +1,168 @@
+.navbar {
+    padding: 1% 2%;
+    background-color: gray;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+.nav-select {
+    /* width: fit-content; */
+    width: 10%;
+    min-width: 150px;
+
+}
+
+.reset-btn {
+    height: 20px;
+    color: skyblue;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+    width: 10%;
+    min-width: 150px;
+    cursor: pointer;
+
+
+}
+.home{
+    display: flex;
+}
+.productContainer{
+    display: flex;
+    flex:1;
+    
+    width: 78%;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.btns{
+    width:100%;
+   
+}
+.filters{
+    background-color: #324a40;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 10px;
+    height: 86vh;
+}
+.filter >span{
+    padding-bottom: 20px;
+}
+.title{
+    font-size: 30px;
+}
+.products{
+
+    position: relative;
+    
+    
+}
+.Category{
+    font-size: 20px;
+
+}
+
+.cartitem{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0 20px;
+    margin-bottom:20px ;
+    
+}
+.cartItemImg{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.cartItemDetail{
+    display: flex;
+    flex: 1;
+    padding: 0 20px;
+    flex-direction: column;
+}
+.table {
+    width: 100%;
+}
+.product-details {
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.image-container {
+    width: 10%;
+    height: 10%;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+}
+
+.product-name {
+    width: 27%;
+    font-weight: bolder;
+
+
+}
+
+.product-color {
+    width: 15%;
+
+}
+
+.product-stock {
+    width: 18%;
+}
+
+.in-stock {
+    display: flex;
+    color: green;
+    font-weight: bold;
+}
+
+.out-stock {
+    display: flex;
+    color: red;
+    font-weight: bold;
+}
+
+.product-price {
+    width: 10%;
+
+
+}
+.head-img{
+    transform:translateX(30px);
+}
+.table-head {
+
+    position: fixed;
+    width: 100vw;
+ 
+    justify-content: space-between;
+    
+    z-index: 9;
+    background-color: white;
+
+
+}
+.empty-div {
+    position: relative;
+    height: 10vh;
+}
+.empty {
+    position: relative;
+    top: 0;
+    height: 9vh;
+    z-index: 0;
+    background: white;
+}
